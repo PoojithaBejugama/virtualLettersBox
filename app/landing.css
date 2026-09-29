@@ -1,0 +1,35 @@
+@media(max-width:950px){
+  .landing .landing-hero{grid-template-columns:1fr;padding-top:65px}
+  .landing .landing-stack{height:450px}
+  .landing .steps{gap:18px}
+}
+@media(max-width:650px){
+  .landing .landing-bar nav{gap:2px}
+  .landing .text-action{padding:9px 8px;font-size:7px}
+  .landing-bar .filled{max-width:none}
+  .landing .landing-hero{width:100%;min-width:0;min-height:auto;padding:52px 20px 42px;grid-template-columns:minmax(0,1fr);gap:24px}
+  .landing .landing-copy{width:100%;min-width:0;text-align:left}
+  .landing .landing-copy h1{max-width:100%;font-size:50px;line-height:.9;margin:20px 0 22px;overflow-wrap:anywhere}
+  .landing .landing-copy>p{width:100%;max-width:100%;margin:0;font-size:17px;line-height:1.55}
+  .landing .hero-actions{width:100%;flex-direction:column}
+  .landing .primary-cta,.landing .preview-cta{width:100%;min-height:54px}
+  .landing .landing-copy>small{display:block;line-height:1.7}
+  .landing .landing-stack{width:100%;min-width:0;height:390px}
+  .landing .hero-card{width:84%;height:225px;padding:32px}
+  .landing .hero-card h2{font-size:32px}
+  .landing .hero-stamp{width:52px;height:62px}
+  .landing .hero-seal{left:8%;bottom:35px}
+  .landing .how{padding:75px 20px}
+  .landing .how>h2{font-size:43px}
+  .landing .steps{grid-template-columns:1fr;gap:6px}
+  .landing .steps article{padding:24px 12px}
+  .landing .landing-final{min-height:430px}
+  .landing .auth-backdrop{padding:12px}
+  .landing .auth-card{padding:40px 22px 30px}
+  .landing .auth-card h2{font-size:35px}
+}
+@media(max-width:370px){
+  .landing .landing-copy h1{font-size:43px}
+  .landing .hero-card{padding:27px}
+  .landing .hero-card h2{font-size:29px}
+}
